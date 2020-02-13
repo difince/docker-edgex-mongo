@@ -50,7 +50,7 @@ test:
 	./bin/test-attribution-txt.sh
 
 run:
-	./bin/edgex-mongo-launch.sh
+	./bin/run_edgex_mongo.sh
 
 edgex-mongo:
 	 docker build \
